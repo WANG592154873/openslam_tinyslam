@@ -2,3 +2,8 @@
 ./configure
 make
 sudo make install
+cd test
+mkdir build
+cd build
+cmake ..
+make
